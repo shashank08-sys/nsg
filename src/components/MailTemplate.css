@@ -1,0 +1,38 @@
+.main-mail-template {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.left-mail-template {
+  width: 25%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.btn-generate {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-generate:hover {
+  background-color: #125a9c;
+}
+
+.right-mail-template {
+  width: 75%;
+  background: #f3f3f3;
+  padding: 20px;
+  border-radius: 10px;
+  white-space: pre-wrap; 
+  border: 1px solid #ddd;
+  font-size: 14px;
+  overflow-x: auto;
+}
